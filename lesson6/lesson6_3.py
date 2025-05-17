@@ -33,10 +33,10 @@ def play_game():
   
  
 
-while(True)：
+while(True):
     play_game()
-    play_again=input("再玩一次(y,n)：")
-    if(play_again =="n"):
+    play_again = input("再玩一次(y,n):")
+    if(play_again == 'n'):
         break
 
 print("遊戲結束")

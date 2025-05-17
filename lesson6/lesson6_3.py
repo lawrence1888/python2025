@@ -1,4 +1,6 @@
-#注意虛擬環境
+#注意虛擬環境，選chilee1(先前創立的虛擬環境)
+# 將lesson6_3.py存檔傳至雲端
+# lesson6資料夾右鍵「在整合式終端機中開啟」->打 python lesson6_3.py->就可以開始執行
 
 
 import random
@@ -26,3 +28,7 @@ while True:
 
 
 print("Game Over")
+
+
+
+#設定自動儲存：設定->經常使用設定為after delay

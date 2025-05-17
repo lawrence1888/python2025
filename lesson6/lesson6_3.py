@@ -7,25 +7,27 @@ import random
 
 def play_game():
     min = 1
-    max = 99
+    max = 100
     count = 0
-    random_number = random.randint(min,max)
-    #print(random_number)
-    print("=====猜數字遊戲開始=========\n\n")
-    while True:
-    input_number = int(input(f"請輸入數字({min}~{max}):"))
-    count += 1
-    if(input_number == random_number):
-        print(f"賓果!猜對了, 答案是:{input_number}")
-        print(f"您猜了:{count}次")
-        break
-    elif(input_number>random_number):
-        print(f"再小一點")
-        max = input_number - 1
-    elif(input_number<random_number):
-        print(f"再大一點")
-        min = input_number + 1
-    else:
+    target = random.randint(1, 100)
+    print(target)
+    print("===============猜數字遊戲=================:\n")
+    while(True):
+        count += 1
+        keyin = int(input("猜數字範圍{0}~{1}:".format(min, max)))
+        if(keyin >=min and keyin <= max):
+            if(keyin == target):
+                print("賓果!猜對了, 答案是:", target)
+                print("您猜了",count,"次")
+                break
+            elif (keyin > target):
+                max = keyin
+                print("再小一點")
+            elif (keyin < target):
+                min = keyin
+                print("再大一點")
+            print("您猜了",count,"次\n")
+        else:
             print("請輸入提示範圍內的數字")
   
 

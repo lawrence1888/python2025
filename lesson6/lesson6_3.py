@@ -32,10 +32,10 @@ def play_game():
             print("請輸入提示範圍內的數字")
   
 
-while(true)：
+while(True)：
     play_game()
     play_again=input("再玩一次(y,n)：")
-    if(play_again=="n")
+    if(play_again =="n"):
         break
 
 print("遊戲結束")

@@ -25,8 +25,8 @@ def play_game():
     elif(input_number<random_number):
         print(f"再大一點")
         min = input_number + 1
-
-    print(f"您已經猜了:{count}次\n")
+    else:
+            print("請輸入提示範圍內的數字")
   
 
 

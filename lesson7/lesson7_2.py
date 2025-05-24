@@ -29,3 +29,5 @@ def main():
 
 if __name__=='__main__':
     main()
+
+#在終端機中輸入python lesson7_2.py後，按ENTER執行

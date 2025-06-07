@@ -1,4 +1,4 @@
-#py檔要在終端機打上 python lesson9_2.py後enter就會執行
+#py檔要在終端機打上 python lesson9_2.py後enter就會執行→執行不出來
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox

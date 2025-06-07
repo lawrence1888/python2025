@@ -1,4 +1,4 @@
-#在終端機打上 python lesson7_2.py後enter就會執行
+#py檔要在終端機打上 python lesson7_2.py後enter就會執行
 
 import tools
 

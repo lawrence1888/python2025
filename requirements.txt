@@ -2,4 +2,5 @@ pandas
 numpy
 matplotlib
 seaborn
+#openpyxl為別人開發的套件
 openpyxl

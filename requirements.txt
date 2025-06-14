@@ -4,3 +4,5 @@ matplotlib
 seaborn
 #openpyxl為別人開發的套件
 openpyxl
+#計算常態分布的pdf
+spicy

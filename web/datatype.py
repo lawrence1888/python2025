@@ -22,3 +22,9 @@ False
 
 #字典 dictionary
 {"apple":"蘋果","Banana":"香蕉"}
+
+
+#變數：用來儲存資料的自訂名稱
+#變數名稱=資料
+x=3
+print(3)

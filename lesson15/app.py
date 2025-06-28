@@ -1,3 +1,11 @@
+#確認已安裝 Streamlit（如果尚未安裝，可用 pip install streamlit）。
+
+#在終端機（Terminal）中，切換到你的 Python 應用程式檔案所在的目錄。
+
+#使用以下指令啟動 Streamlit 應用：streamlit run your_script.py
+
+
+
 import streamlit as st
 import lesson15_1 as yf_stock # 匯入我們的主程式
 

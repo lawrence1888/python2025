@@ -2,16 +2,11 @@
 
 #在終端機（Terminal）中，切換到你的 Python 應用程式檔案所在的目錄。
 
-<<<<<<< HEAD
 #使用以下指令啟動 Streamlit 應用：streamlit run app.py
-=======
-#使用以下指令啟動 Streamlit 應用：streamlit run your_script.py
->>>>>>> a655b3dd1860f4c6fa8e022b4c30439d0428ace5
-
-
 
 import streamlit as st
 import lesson15_1 as yf_stock # 匯入我們的主程式
+
 
 # --- Streamlit 頁面設定 ---
 st.set_page_config(page_title="台股儀表板", layout="wide")

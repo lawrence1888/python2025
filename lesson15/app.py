@@ -2,7 +2,11 @@
 
 #在終端機（Terminal）中，切換到你的 Python 應用程式檔案所在的目錄。
 
+<<<<<<< HEAD
 #使用以下指令啟動 Streamlit 應用：streamlit run app.py
+=======
+#使用以下指令啟動 Streamlit 應用：streamlit run your_script.py
+>>>>>>> a655b3dd1860f4c6fa8e022b4c30439d0428ace5
 
 
 

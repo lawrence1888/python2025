@@ -1,3 +1,6 @@
+#此記事本為套件清單，若要帶入清單中的套件，在終端機上打 pip install -r requirements.txt
+
+
 pandas
 numpy
 matplotlib

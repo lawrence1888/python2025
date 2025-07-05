@@ -1,7 +1,12 @@
-#1.終端機打streamlit run app.py ->輸入email
+#1.終端機打streamlit run app.py ->輸入email後就會出現程式寫的股市網頁
 
-#2.render網站上登入github帳號 ->new ->web service ->選Python2025資料夾 ->區域選新加坡 ->Root Directory打 lesson16 ->Start Command 打 streamlit run app.py 
-# -> 成功就會顯示Your service is live
+#2.render網站上登入github帳號 ->new ->web service ->選Python2025資料夾 ->區域選新加坡 ->Root Directory打 lesson16 
+# ->Start Command 打 streamlit run app.py -> 選免費 -> 按 Deploy Web service後跑開始 -> 成功就會顯示Your service is live，下方有網站連結，點進去後就會出現程式寫的股市網頁
+
+
+#Render：是一個新的 PaaS（ Platform as a service）雲端服務，也就是說你的程式碼部署到 Render 之後，你不用（也不能）去管 Linux/firewall/nginx 的設定。
+# 把你的 Github 網址給 Render，設定一下用滑鼠點點點，等個幾分鐘，你的程式就上線了，全世界都能看到你的網站或是存取你提供的 API。
+
 
 
 import streamlit as st

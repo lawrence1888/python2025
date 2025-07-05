@@ -1,3 +1,9 @@
+#1.終端機打streamlit run app.py ->輸入email
+
+#2.render網站上登入github帳號 ->new ->web service ->選Python2025資料夾 ->區域選新加坡 ->Root Directory打 lesson16 ->Start Command 打 streamlit run app.py 
+# -> 成功就會顯示Your service is live
+
+
 import streamlit as st
 import yfinance as yf
 import os
